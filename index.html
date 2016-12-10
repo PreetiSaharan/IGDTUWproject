@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<title>
+college website
+</title>
+<link rel="stylesheet" type="text/css" href="styling.css"></link>
+
+<head>
+
+<body>
+
+<div id="page">
+<div id ="sublinks">
+<a href="home.html">Home  |</a>
+<a href="home.html">Contact Us  |</a>
+<a href="home.html">Student Login  |</a>
+</br>
+<h4>Search:<input type="text" name="search" size="10" maxlength="15"></h4>
+</div>
+
+<div id="header">
+<h1> COLLEGE SPACE</h1>
+<h3>Life savior of students</h3>
+</div>
+
+<div id="linkspart">
+<a href="home.html">Home</a>&nbsp&nbsp&nbsp&nbsp
+<a href="home.html">About us</a>&nbsp&nbsp&nbsp&nbsp
+<a href="home.html">Infrastructure</a>&nbsp&nbsp&nbsp&nbsp
+<a href="home.html">Placements</a>&nbsp&nbsp&nbsp&nbsp
+<a href="home.html">Notes</a>&nbsp&nbsp&nbsp&nbsp
+<a href="home.html">Events</a>&nbsp&nbsp&nbsp&nbsp
+<a href="home.html">Gallary</a>&nbsp&nbsp&nbsp&nbsp
+<a href="home.html">Question Papers</a>&nbsp&nbsp&nbsp&nbsp
+
+
+</div>
+
+<div id="bodypart">
+
+<div id="bodypart1">
+</div>
+<div id="bodypart2">
+<div id="slideshow">
+
+		    <img class="slides" src="image1.jpg" >
+            <img class="slides" src="image2.jpg" >
+            <img class="slides" src="image3.jpg" >
+            <img class="slides" src="image4.jpg" >
+            <img class="slides" src="image5.jpg" >
+
+              <script>
+                  var myIndex = 0;
+                  carousel();
+
+                  function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("slides");
+                  for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                       }
+                  myIndex++;
+
+                  if (myIndex > x.length) {myIndex = 1} 
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 3000); // Change image every 3 seconds
+                  }
+              </script>
+
+			
+		</div>
+
+<div id="bodypart2sub"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<footer id="lala">
+<img class="f_img" src="twitter.png">
+<img class="f_img" src="google.png">
+<img class="f_img" src="linkedin-used.png">
+<img class="f_img" src="final.jpg">
+
+</footer>
+
+</div >
+
+<!--center tag will let the page to be at center of ur browser evn if the resolution of your  system is more than 1000px-->
+</body>
+</html>
